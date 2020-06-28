@@ -5,7 +5,9 @@ The core of this slim repository is a Matlab script that constructs RBF-FD diffe
 
 ```matlab
 [E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X, Y, p, n, polydeg, bf, indeces, []),
-
+```
+### Input
+```
 Input:
 X ... Nx1 list of interpolation points.
 Y ... Mx1 list of evaluation points. (If Y=X, then the matrices will be square)
@@ -23,8 +25,4 @@ Dy ... MxN differentiation matrix d/dy
 Dxx ... MxN differentiation matrix d^2/dx^2
 Dxx ... MxN differentiation matrix d^2/dy^2
 Dxy ... MxN differentiation matrix d^2/(dx*dy)
-
-
-
-
 ```
