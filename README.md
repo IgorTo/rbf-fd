@@ -12,12 +12,14 @@ The core of this slim repository is a Matlab script that constructs RBF-FD diffe
 ## Usage
 
 ```matlab
+% Parameters.
 load X-pts and Y-pts
 bf = Basis.basisF('PHS', '2d'); % Choose basis functions.
 p = 3; % PHS power (r^p).
 polydeg = 3; % Augmented polynomial degree.
 n = 2*nchoosek(polydeg+2,2); % Stencil size.
 
+% Get matrices.
 [E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X, Y, p, n, polydeg, bf, stencils[optional]),
 ```
 ### Inputs
