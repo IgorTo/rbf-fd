@@ -12,6 +12,7 @@ The core of this slim repository is a Matlab script that constructs RBF-FD diffe
 ## Usage
 
 ```matlab
+load X-pts and Y-pts
 bf = Basis.basisF('PHS', '2d'); % Choose basis functions.
 p = 3; % PHS power (r^p).
 polydeg = 3; % Augmented polynomial degree.
