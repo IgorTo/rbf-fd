@@ -18,7 +18,7 @@ The core of this slim repository is a Matlab script that constructs RBF-FD polyn
 ```
 X ... Nx2 list of interpolation points.
 Y ... Mx2 list of evaluation points. (If Y=X, then the matrices will be square)
-p ... exponent on PHS
+p ... exponent on the polyharmonic spline (PHS) or the shape parameter of a gaussian or a multiquadric.
 n ... stencil size.
 polydeg ... polynomial degree.
 basis ... the basis functions.
