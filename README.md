@@ -12,7 +12,7 @@ The core of this slim repository is a Matlab script that constructs RBF-FD diffe
 ## Usage
 
 ```matlab
-[E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X, Y, p, n, polydeg, bf, indeces, []),
+[E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X, Y, p, n, polydeg, bf, indeces, stencils[optional]),
 ```
 ### Inputs
 ```
