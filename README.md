@@ -1,9 +1,9 @@
 # RBF-FD matrices
-The core of this slim repository is a Matlab script that constructs RBF-FD (phs+poly) differentiation and evaluation matrices which can be used in least-squares and collocation methods for solving PDEs in two dimensions.
+The core of this slim repository is a Matlab script that constructs RBF-FD polynomially augmented differentiation and evaluation matrices which can be used in least-squares and collocation methods for solving PDEs in two dimensions.
 
 ## Tags
 - RBF-FD
-- PHS+poly
+- PHS+poly, GA+poly, MQ+poly
 - Collocation
 - Least-squares
 - Oversampled operators
