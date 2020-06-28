@@ -7,7 +7,7 @@ The core of this slim repository is a Matlab script that constructs RBF-FD (phs+
 - Collocation
 - Least-squares
 - Oversampled operators
-- 2 dimensions
+- 2D
 
 ## Usage
 
