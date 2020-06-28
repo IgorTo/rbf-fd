@@ -26,15 +26,9 @@ idx = knnsearch(Y.nds, X.nds, 'k', 1);
 Y.nds(idx,:) = X.nds;
 
 %
-% Compute the nearest neighbors indeces.
-%
-indeces.idx_X = knnsearch(X.nds,X.nds,'k',n);
-indeces.idx_Y_X = knnsearch(X.nds,Y.nds,'k',1);
-
-%
 % Compute evaluation/differentiation matrices.
 %
-[E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X.nds,Y.nds,p,n,polydeg,bf,indeces,[]);
+[E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = Matrices.generate_2d(X.nds,Y.nds,p,n,polydeg,bf,[]);
 
 %
 % Solve a Poisson equation with Dirichlet+Neumann BC data.

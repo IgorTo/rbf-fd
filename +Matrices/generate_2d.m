@@ -20,7 +20,7 @@
 % Dxy ... MxN differentiation matrix d^2/(dx*dy)
 
 
-function [E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = generate_2d(X, Y, epOrP, n, polydeg, basis, indeces, stencils, varargin)
+function [E, Dx, Dy, Dxx, Dyy, Dxy, stencils] = generate_2d(X, Y, epOrP, n, polydeg, basis, stencils, varargin)
 
 import Basis.*
 import Basis.Matrices.Tools.*
@@ -30,6 +30,9 @@ dim = size(X,2);
 %
 % Find the neighbours
 %
+indeces.idx_X = knnsearch(X,X,'k',n);
+indeces.idx_Y_X = knnsearch(X,Y,'k',1);
+
 idx_X = indeces.idx_X;
 idx_centers = unique(indeces.idx_Y_X);
 idx_centers_local = 1:length(idx_centers);
@@ -37,7 +40,7 @@ idx_centers_global = sparse(size(X,1),1);
 idx_centers_global(idx_centers) = idx_centers_local;
 
 N_dom = size(X,1);
-N_centers = length(idx_centers); % X(idx_domain) could be interior, or some of the boundaries.
+N_centers = length(idx_centers);
 
 %
 % Precompute the monomial matrix.
