@@ -39,3 +39,8 @@ An example of using rectangular matrices is provided in file Example_Poisson_fit
 
 ## Other packages used
 The only other package that this library uses is MONOMIAL (https://people.sc.fsu.edu/~jburkardt/m_src/monomial/monomial.html) maintained under LGPL license.
+
+# Papers
+The papers which use this script are:
+- I. Tominec, E. Larsson, A. Heryudono: A least squares radial basis function finite difference method with improved stability properties
+- I. Tominec, E. Breznik: Unfitted radial basis function finite difference method in a least-squares setting
