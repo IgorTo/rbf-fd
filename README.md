@@ -34,3 +34,8 @@ Dxx ... MxN differentiation matrix d^2/dx^2
 Dxx ... MxN differentiation matrix d^2/dy^2
 Dxy ... MxN differentiation matrix d^2/(dx*dy)
 ```
+## Example
+An example of using rectangular matrices is provided in file Example_Poisson_fitted.m.
+
+## Other packages used
+The only other package that this library uses is MONOMIAL (https://people.sc.fsu.edu/~jburkardt/m_src/monomial/monomial.html) maintained under LGPL license.
