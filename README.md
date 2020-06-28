@@ -1,5 +1,5 @@
 # Rectangular and square RBF-FD matrices
-The core of this slim repository is a Matlab script that constructs RBF-FD polynomially augmented differentiation and evaluation matrices which can be used in least-squares and collocation methods for solving PDEs in two dimensions.
+The core of this slim repository is a Matlab script that constructs RBF-FD differentiation and evaluation matrices or rectangular or square shape. Those can be used for interpolation or in the least-squares and the collocation methods for solving PDEs in two dimensions.
 
 ## Tags
 - RBF-FD
