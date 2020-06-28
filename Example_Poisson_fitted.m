@@ -3,12 +3,12 @@ close all;
 %
 % Load interpolation points.
 %
-X = load('Example_Poisson_fitted_nds_N=2000.mat');
+X = load('data/Example_Poisson_fitted_nds_N=2000.mat');
 N = size(X.nds,1);
 %
 % Load evaluation points.
 %
-Y = load('Example_Poisson_fitted_nds_N=6000.mat');
+Y = load('data/Example_Poisson_fitted_nds_N=6000.mat');
 M = size(Y.nds,1);
 
 %
