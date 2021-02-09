@@ -39,7 +39,7 @@ E ... MxN evaluation matrix.
 Dx ... MxN differentiation matrix d/dx
 Dy ... MxN differentiation matrix d/dy
 Dxx ... MxN differentiation matrix d^2/dx^2
-Dxx ... MxN differentiation matrix d^2/dy^2
+Dyy ... MxN differentiation matrix d^2/dy^2
 Dxy ... MxN differentiation matrix d^2/(dx*dy)
 ```
 ## Example
