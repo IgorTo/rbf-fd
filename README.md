@@ -30,8 +30,8 @@ p ... exponent on the polyharmonic spline (PHS) or the shape parameter of a gaus
 n ... stencil size.
 polydeg ... polynomial degree.
 basis ... the basis functions.
-indeces ... a struct with indeces of stencil neighbors (idx_X) and indeces of closest stencils to every evaluation points (idx_Y_X)
-stencils ... a struct of already computed stencils (can be used for interpolation purposes). Input [] when no precomputed stencils are available.
+indeces ... a struct with indeces of stencil neighbors (indeces.idx_X) and indeces of closest stencils to every evaluation points (indeces.idx_Y_X)
+stencils (optional) ... a struct of already computed stencils (can be used for interpolation purposes). Input [] when no precomputed stencils are available.
 ```
 ### Outputs
 ```
