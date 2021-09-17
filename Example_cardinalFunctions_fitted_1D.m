@@ -1,11 +1,13 @@
 clearvars;
 close all;
 
-N = 20;
-M = 10*N;
+% A code to generate the RBF-FD global cardinal basis functions.
 
-X.nds = linspace(0,1,N)';
-Y.nds = linspace(0,1,M)';
+N = 20; % The number of nodes.
+M = 10*N; % The number of evaluation points.
+
+X.nds = linspace(0,1,N)'; % Nodes.
+Y.nds = linspace(0,1,M)'; % Evaluation points.
 
 %
 % Parameters.
