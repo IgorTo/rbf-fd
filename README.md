@@ -51,7 +51,8 @@ The only other package that this library uses is MONOMIAL (https://people.sc.fsu
 
 # Papers
 The papers which use this script are:
-- I. Tominec, E. Larsson, A. Heryudono: A least squares radial basis function finite difference method with improved stability properties, 2020
-- I. Tominec, E. Breznik: Unfitted radial basis function finite difference method in a least-squares setting, 2020
-- I. Tominec, P.F. Villard, E. Larsson, V. Bayona, N. Cacciani: An unfitted radial basis function generated finite difference method applied to thoracic
-diaphragm simulations, 2021
+- Stability estimates for radial basis function methods applied to time-dependent hyperbolic PDEs. Preprint, 2021.
+- Residual viscosity stabilized RBF-FD methods for solving nonlinear conservation laws. Preprint, 2021.
+- An unfitted radial basis function generated finite difference method applied to thoracic diaphragm simulations. Preprint, 2021.
+- A least squares radial basis function finite difference method with improved stability properties. SIAM Journal on Scientific Computing, 2021.
+- An unfitted RBF-FD method in a least-squares setting for elliptic PDEs on complex geometries. Journal of Computational Physics, 2021.
